@@ -12,6 +12,9 @@ This public edition contains the product-neutral event model, deterministic
 fixtures, and a small CLI. It does not contain private provider sessions,
 customer data, funding material, or organization-specific integrations.
 
+See [`docs/MAINTENANCE.md`](docs/MAINTENANCE.md) for the public/private
+promotion and compatibility boundary.
+
 ## Quick start
 
 ```powershell
