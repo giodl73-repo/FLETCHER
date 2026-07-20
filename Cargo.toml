@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "crates/fletcher-core",
+    "crates/fletcher-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Gio Della-Libera"]
+license = "MIT"
+repository = "https://github.com/giodl73-repo/FLETCHER"
+publish = false
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = "warn"
